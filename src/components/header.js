@@ -1,10 +1,15 @@
 import React from "react";
-
+import Facts from "./Facts";
+import Navbar from "./navbar";
 
 function Header(){
     return(
     <>
+ <Navbar/>
     <div className="inset-0 bg-[url('./assets/bg1.jpg')]  p-8 bg-center bg-cover h-lvh text-center text-white">
+        
+          
+        
 
         
 <form class="max-w-md mx-auto pt-12">   
@@ -20,6 +25,11 @@ function Header(){
     </div>
 </form>
 
+<div>
+           <h1 className="text-stone-900 text-6xl w-1/2 pt-[200px] font-bold"> 
+                Let Food Be Your Medicine and Your Medicine Food!!
+            </h1>
+           </div>
 
     </div>
     

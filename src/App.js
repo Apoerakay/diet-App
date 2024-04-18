@@ -1,19 +1,34 @@
+import React from "react";
+import { Route,Routes, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
 import Login from "./pages/login";
 import Signup from "./pages/signup";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/profilePage";
-
+import Meal from "./pages/meals";
+import Facts from "./components/Facts";
+import Home from "./pages/home";
+import Footer from "./components/footer";
 function App() {
   return (
    <>
-   <Header/>
-   <Navbar/>
-   <Login/>
-   <Signup/>
-   <Profile/>
-   <Dashboard/>
+<BrowserRouter>
+<Routes>
+  <Route path='/' element={<Home/>}></Route>
+  <Route path='/login'element={<Login/>}></Route>
+  <Route path= '/signup'element={<Signup/>}></Route>
+  <Route path= '/profile'element={ <Profile/>}></Route>
+  <Route path= '/meals' element={ <Meal/>}></Route>
+</Routes>
+</BrowserRouter>
+
+  
+  
+   
+   
+  
+   {/* <Dashboard/> */}
    </>
   );
 }

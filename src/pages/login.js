@@ -5,16 +5,16 @@ function Login(){
     return(
         <>
        <div class="bg-gray-100 min-h-screen flex items-center justify-center">
-{/* 
-    <div class="absolute inset-0 z-0">
+
+    {/* <div class="absolute inset-0 z-0">
         <img src="https://source.unsplash.com/random/1920x1080" alt=""
             class="w-full h-full object-cover filter blur-lg brightness-50"/>
-    </div> */}
+    </div>  */}
 
     
     <div class="relative z-10 bg-white p-8 rounded-md shadow-lg">
         <h1 class="text-xl font-bold mb-4 text-center">Login</h1>
-        <form action="#" method="POST">
+        <form  className="h-[300px] w-[300px]" action="#" method="POST">
             <div class="mb-4">
                 <label class="block text-gray-700 font-bold mb-2" for="email">Email</label>
                 <input
