@@ -10,6 +10,7 @@ import Meal from "./pages/meals";
 import Facts from "./components/Facts";
 import Home from "./pages/home";
 import Footer from "./components/footer";
+
 function App() {
   return (
    <>
@@ -18,8 +19,9 @@ function App() {
   <Route path='/' element={<Home/>}></Route>
   <Route path='/login'element={<Login/>}></Route>
   <Route path= '/signup'element={<Signup/>}></Route>
-  <Route path= '/profile'element={ <Profile/>}></Route>
+  <Route path= '/Profile'element={ <Profile/>}></Route>
   <Route path= '/meals' element={ <Meal/>}></Route>
+  
 </Routes>
 </BrowserRouter>
 

@@ -1,6 +1,7 @@
 import Header from "../components/header";
 import Facts from "../components/Facts";
 import Footer from "../components/footer";
+import Conditions from "../components/conditions";
 
 function Home(){
     return(
@@ -68,6 +69,7 @@ function Home(){
     </div>
             </div>
         </div>
+        
         </section>
        
         <section class="bg-gray-100 dark:bg-gray-900">
@@ -89,7 +91,7 @@ function Home(){
         
 
 
-        <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-300">Diet Counselling</h1>
+        <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-300">Nutrition Counselling</h1>
 
         <p class="mt-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Dignissim fusce tortor, ac sed malesuada blandit.</p>
@@ -107,6 +109,7 @@ function Home(){
     </div>
   </div>
 </section>
+<Conditions/>
         <Footer/>
         </>
     )

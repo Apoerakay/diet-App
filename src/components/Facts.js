@@ -1,35 +1,32 @@
-import react from "react";
-import Swiper from "swiper";
 import { Navigation, Pagination } from "swiper/modules";
 // import Swiper and modules styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-// init Swiper:
-const swiper = new Swiper(".swiper", {
-  // configure Swiper to use modules
-  modules: [Navigation, Pagination],
-});
 
 function Facts() {
   return (
-    <>
-      <div class="swiper w-[500px] h-[200px] mt-16 mr-[460px]">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"> <img src="https://img.freepik.com/premium-photo/man-measures-blood-pressure-white-background-arterial-hypotension-hand-tonometer-close-up_170532-3247.jpg?w=740" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt=" />
-"/> </div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-        </div>
+    <Swiper
+    slidesPerView={3}
+    spaceBetween={30}
+    pagination={{
+      clickable: true,
+    }}
+    modules={[Pagination, Navigation]}
+    navigation={true}
+    
+  >
+      
+      <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        
 
-        <div class="swiper-pagination"></div>
-
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <div class="swiper-scrollbar"></div>
-      </div>
+       
       {/* <div id="default-carousel" class="relative w-1/2 pt-16" data-carousel="slide">
 
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -76,7 +73,7 @@ function Facts() {
         </span>
     </button>
 </div> */}
-    </>
+    </Swiper>
   );
 }
 

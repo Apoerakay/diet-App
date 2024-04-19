@@ -6,12 +6,11 @@ function Signup (){
     return(
         <>
         
-<div class="bg-gray-100 flex h-screen items-center justify-center px-4 sm:px-6 lg:px-8">
+<div class="bg-[url('https://img.freepik.com/premium-photo/background-vegetable-salad-closeup-with-space-text_378630-17587.jpg?w=740')] flex h-screen items-center justify-center px-4 sm:px-6 lg:px-8">
     <div class="w-full max-w-md space-y-8">
-        <div class="bg-white shadow-md rounded-md p-6">
+        <div class=" justify-center content-center bg-slate-800 border border-slate-400 rounded-md p-12 shadow-lg backdrop-filter backdrop-blur-sm bg-opacity-30 relative">
 
-            {/* <img class="mx-auto h-12 w-auto" src="https://www.svgrepo.com/show/499664/user-happy.svg" alt="" /> */}
-
+           
             <h2 class="my-3 text-center text-3xl font-bold tracking-tight text-gray-900">
                 Sign up for an account
             </h2>
@@ -56,7 +55,7 @@ function Signup (){
                         class="flex w-full justify-center rounded-md border border-transparent bg-green-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-opacity-75 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2">Register
                         Account
                         </button>
-                        <Link to='/login' class="inline-block align-baseline font-bold text-sm text-cyan-500 hover:text-cyan-800"
+                        <Link to='/login' class="inline-block align-baseline font-bold text-sm text-white hover:text-cyan-800"
                     href="#">
                     Have an Account ? SignIn
                 </Link>
