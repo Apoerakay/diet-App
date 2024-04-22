@@ -27,7 +27,7 @@ function Header(){
 </form>
 
 <div className="flex min-h-screen items-center justify-center bg-transparent pr-[500px] pb-[400px] ">
-           <h1 className="text-stone-900 text-6xl w-1/2 pt-[200px] font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl  "> 
+           <h1 className="text-stone-900 text-6xl w-1/2 pt-[200px] font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5  "> 
                 Let Food Be Your Medicine !!
             </h1>
            </div>
