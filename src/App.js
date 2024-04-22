@@ -10,6 +10,7 @@ import Meal from "./pages/meals";
 import Facts from "./components/Facts";
 import Home from "./pages/home";
 import Footer from "./components/footer";
+import Form from "./components/form";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
   <Route path= '/signup'element={<Signup/>}></Route>
   <Route path= '/Profile'element={ <Profile/>}></Route>
   <Route path= '/meals' element={ <Meal/>}></Route>
+  {/* <Route path= '/form' element={<Form/>}></Route> */}
   
 </Routes>
 </BrowserRouter>

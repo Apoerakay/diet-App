@@ -11,33 +11,31 @@ function Conditions(){
             <div class="text-xs uppercase text-gray-500 font-medium">Home</div>
             <a class="my-3 block" href="/#">Conditions <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">Products <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block" href="/#">Meals <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">About Us <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block" href="/#">recipes <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">Pricing <span class="text-teal-600 text-xs p-1"></span>
-            </a>
-            <a class="my-3 block" href="/#">Partners <span class="text-teal-600 text-xs p-1">New</span>
-            </a>
+            
+          
         </div>
         <div class="p-5">
             <div class="text-xs uppercase text-gray-500 font-medium">nutritional Resources</div>
 
-            <a class="my-3 block" href="/#">Documentation <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block" href="/#">Meal plans <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">Tutorials <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block" href="/#">Information on conditions <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">Support <span class="text-teal-600 text-xs p-1">New</span>
+            <a class="my-3 block" href="/#">Support <span class="text-teal-600 text-xs p-1"></span>
             </a>
         </div>
         <div class="p-5">
             <div class="text-xs uppercase text-gray-500 font-medium"> Nutritional Support</div>
 
-            <a class="my-3 block" href="/#">Help Center <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block" href="/#">Nutritional Counselling <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">Privacy Policy <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block" href="/#">In-person checkups <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">Conditions <span class="text-teal-600 text-xs p-1"></span>
+            <a class="my-3 block" href="/#">Consultation <span class="text-teal-600 text-xs p-1"></span>
             </a>
         </div>
       

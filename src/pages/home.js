@@ -3,6 +3,7 @@ import Facts from "../components/Facts";
 import Footer from "../components/footer";
 import Conditions from "../components/conditions";
 
+
 function Home(){
     return(
         <>
@@ -10,42 +11,86 @@ function Home(){
 
         <section>
         <div class="bg-gray-100 min-h-screen p-4">
-    <div class="container mx-auto pt-12 pb-20">
-        <h1 class="text-4xl font-bold text-gray-800 text-center mb-8">
-            Nutrition Facts and Tips
-        </h1>
+
+    <div class="container mx-auto pt-[120px] ">
+       
+        
+       
         <p class="text-gray-700 text-lg text-center mb-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet magna id ex hendrerit semper.
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-yellow-300 rounded-lg shadow-lg p-8">
-                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet magna id ex hendrerit
-                    semper.
+        {/* <marquee> */}
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+            <div class="bg-yellow-300 rounded-lg shadow-lg p-8 h-[300px] w-full text-3xl">
+                <h2 class="text-xl font-bold text-gray-800 mb-4 "></h2>
+                <p class="text-gray-700 whitespace-normal break-words">
+                Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
                 </p>
             </div>
-            <div class="bg-violet-600 rounded-lg shadow-lg p-8">
+            <div class="bg-violet-600 rounded-lg shadow-lg p-8 text-3xl">
                 <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet magna id ex hendrerit
-                    semper.
+                <p class="text-gray-700 whitespace-normal break-words">
+                Cut down on processed meats like sausage and bacon. Opt for leaner proteins like grilled chicken or fish instead. Your heart will thank you!
                 </p>
             </div>
-            <div class="bg-red-600 rounded-lg shadow-lg p-8">
+            <div class="bg-red-600 rounded-lg shadow-lg p-8 text-3xl">
                 <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet magna id ex hendrerit
-                    semper.
+                <p class="text-gray-700 whitespace-normal break-words">
+                Feeling tired? Boost your energy levels with a handful of almonds or a slice of whole-grain bread topped with peanut butter.
+                </p>
+                
+            </div>
+            <div class="bg-violet-600 rounded-lg shadow-lg p-8 text-3xl">
+                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
+                <p class="text-gray-700 whitespace-normal break-words">
+                Stay hydrated in Ghana's heat! Drink plenty of water & enjoy refreshing coconut water for electrolytes & hydration
                 </p>
             </div>
+            <div class="bg-red-600 rounded-lg shadow-lg p-8 text-3xl">
+                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
+                <p class="text-gray-700 whitespace-normal break-words">
+                Opt for homemade soups and stews with plenty of vegetables & lean proteins for a comforting yet nutritious meal.
+                </p>
+                
+            </div>
+            <div class="bg-violet-600 rounded-lg shadow-lg p-8 text-3xl">
+                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
+                <p class="text-gray-700 whitespace-normal break-words">
+                Include a source of protein in each meal, such as grilled fish, tofu, or beans, to help you feel full and satisfied.
+                </p>
+            </div>
+            <div class="bg-red-600 rounded-lg shadow-lg p-8 text-3xl">
+                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
+                <p class="text-gray-700 whitespace-normal break-words">
+                Snack on roasted corn on the cob for a fiber-rich option that's perfect for on-the-go.
+                </p>
+                
+            </div>
+            <div class="bg-violet-600 rounded-lg shadow-lg p-8 text-3xl">
+                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
+                <p class="text-gray-700 whitespace-normal break-words">
+                Cut down on salt by using herbs and spices like basil, thyme, and rosemary to flavor your meals. Your heart will thank you!
+                </p>
+            </div>
+            <div class="bg-red-600 rounded-lg shadow-lg p-8 text-3xl">
+                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
+                <p class="text-gray-700 whitespace-normal break-words">
+                Did you know that adding more leafy greens like kontomire and spinach to your diet can boost your iron levels and keep you energized?
+                </p>
+                
+            </div>
+            
+            
         </div>
+       {/* </marquee> */}
     </div>
 </div>
         </section>
 
         <section>
+       
         <Facts />
+        
         <div className="bg-gray-100">
             <div className="">
                
@@ -110,6 +155,7 @@ function Home(){
   </div>
 </section>
 <Conditions/>
+
         <Footer/>
         </>
     )

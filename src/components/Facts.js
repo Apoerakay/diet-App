@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Facts() {
   return (
-    <Swiper
+    <Swiper className="bg-gray-100 "
     slidesPerView={3}
     spaceBetween={30}
     pagination={{
@@ -18,61 +18,28 @@ function Facts() {
     navigation={true}
     
   >
+     
+      <div className="">
       
-      <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        
+      <SwiperSlide className=" "><img src="https://img.freepik.com/premium-photo/delicious-buddha-bowl-with-grilled-chicken_338779-1589.jpg?w=740" alt="meal" className=" p-8 duration-500 hover:scale-105 hover:shadow-xl " /></SwiperSlide>
+        <SwiperSlide  className=" "> <img src="https://images.unsplash.com/photo-1530912585210-7916cd026e59?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Product" class="duration-500 hover:scale-105 hover:shadow-xl  p-8" /></SwiperSlide>
+        <SwiperSlide  className=" "> <img src="https://img.freepik.com/free-photo/top-view-plate-with-assortment-healthy-food_23-2148381259.jpg?t=st=1713351385~exp=1713354985~hmac=61fadfae0a8d109d9399b00ec0f69944d7949cd6c98085bc660c2521238bbeab&w=740"
+                    alt="Product" class=" duration-500 hover:scale-105 hover:shadow-xl p-8" /></SwiperSlide>
+        <SwiperSlide  className=" "><img src="https://img.freepik.com/free-photo/fresh-fruit-berry-salad-healthy-eating_114579-20466.jpg?t=st=1713352213~exp=1713355813~hmac=1889346437c4b27a950c82f083c86348c94bfa9e8e3bff154e732a693e986e16&w=740"
+                    alt="Product" class="p-8 duration-500 hover:scale-105 hover:shadow-xl" /></SwiperSlide>
+        <SwiperSlide  className=" "> <img src="https://jollofhutdxb.com/wp-content/uploads/2023/06/6F89C53B-189B-4C54-88AD-6308463FAF1A.jpeg"
+                    alt="Product" class="p-8" /></SwiperSlide>
 
-       
-      {/* <div id="default-carousel" class="relative w-1/2 pt-16" data-carousel="slide">
-
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-        <div class=" duration-700 ease-in-out" data-carousel-item>
-            <img src="https://img.freepik.com/free-photo/closeup-shot-doctor-with-rubber-gloves-taking-blood-test-from-patient_181624-56107.jpg?t=st=1713432558~exp=1713436158~hmac=ac4741577fc0ec71ac597c34d6bb4c531ca73af0cb121abd123b90743b67c979&w=740" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-        </div>
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://img.freepik.com/premium-photo/man-measures-blood-pressure-white-background-arterial-hypotension-hand-tonometer-close-up_170532-3247.jpg?w=740" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-        </div>
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://img.freepik.com/free-photo/closeup-shot-doctor-with-rubber-gloves-taking-blood-test-from-patient_181624-56107.jpg?t=st=1713432558~exp=1713436158~hmac=ac4741577fc0ec71ac597c34d6bb4c531ca73af0cb121abd123b90743b67c979&w=740" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+<SwiperSlide  className=" "> <img src="https://img.freepik.com/free-photo/white-plate-oatmeal-porridge-with-slices-pear_114579-63790.jpg?t=st=1713745862~exp=1713749462~hmac=3fc8258636e390438fa9c0a0251b7c6a7c30df1f46f17304b59bc45ed4dd1371&w=740"
+                    alt="Product" class="p-8 duration-500 hover:scale-105 hover:shadow-xl" /></SwiperSlide>
+   <SwiperSlide  className=" "> <img src="https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?t=st=1713746251~exp=1713749851~hmac=a95c6762fa83c633a10d49bae97ef9e0159d62029c8ffee0fa8fbf79edd50080&w=740"
+                    alt="Product" class="p-8" /></SwiperSlide>
+                    
+                    
         </div>
 
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://img.freepik.com/free-photo/closeup-shot-doctor-with-rubber-gloves-taking-blood-test-from-patient_181624-56107.jpg?t=st=1713432558~exp=1713436158~hmac=ac4741577fc0ec71ac597c34d6bb4c531ca73af0cb121abd123b90743b67c979&w=740" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-        </div>
-
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://img.freepik.com/free-photo/closeup-shot-doctor-with-rubber-gloves-taking-blood-test-from-patient_181624-56107.jpg?t=st=1713432558~exp=1713436158~hmac=ac4741577fc0ec71ac597c34d6bb4c531ca73af0cb121abd123b90743b67c979&w=740" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
-        </div>
-    </div>
-    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-    </div>
-
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
-</div> */}
+     
     </Swiper>
   );
 }
