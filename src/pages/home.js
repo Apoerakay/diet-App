@@ -7,19 +7,26 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
+import { Autoplay } from "swiper/modules";
+import { conditions } from "./conditions";
 
 
 function Home(){
+  console.log({conditions})
     return(
         <>
         <Header/>
 
-        <section className="p-24 bg-gray-100">
-            <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center pb-16">Nutritional Tips</h1>
+            <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl bg-gray-100 pt-[50px] text-center">Nutritional Tips</h1>
+        <section className="p-24 bg-gray-100 flex justify-center items-center gap-[300px]">
+        <div>
         <Swiper
         effect={'cards'}
         grabCursor={true}
-        modules={[EffectCards]}
+        modules={[EffectCards, Autoplay]}
+         
+        autoplay={{delay: 2000,
+          disableOnInteraction: false}}
         className="mySwiper"
       >
          <SwiperSlide > <p className="p-4">
@@ -63,8 +70,31 @@ function Home(){
                 </p></SwiperSlide>
         
 </Swiper>
+        </div>
+        <div>
+        <Swiper className="mySwiper">
+       {conditions.map((data)=>{
+        return (
+          <SwiperSlide  modules={[Autoplay]}
+         
+          autoplay={{delay: 2000,
+            disableOnInteraction: false}}>
+            <div className="flex flex-col gap-10 p-2">
+            <span className="underline">
+            {data.title}
+            </span>
+           <span className="text-[19px]">
+           {data.description}
+           </span>
+            </div>
+          </SwiperSlide>
+        )
+       })}
+        
+      </Swiper>
+        </div>
         </section>
-
+      
         <section>
        
         <Facts />

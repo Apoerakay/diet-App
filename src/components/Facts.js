@@ -8,8 +8,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Facts() {
   return (
-    <Swiper className="bg-gray-100 "
-    slidesPerView={2}
+    <Swiper className="bg-gray-100"
+    slidesPerView={4}
     spaceBetween={30}
     loop = {true}
     pagination={{
@@ -22,7 +22,7 @@ function Facts() {
     
   >
      
-      <div className="">
+      <div className=" ">
       
       <SwiperSlide className=" "><img src="https://img.freepik.com/premium-photo/delicious-buddha-bowl-with-grilled-chicken_338779-1589.jpg?w=740" alt="meal" className=" p-8 duration-500 hover:scale-105 hover:shadow-xl " /></SwiperSlide>
         <SwiperSlide  className=" "> <img src="https://images.unsplash.com/photo-1530912585210-7916cd026e59?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

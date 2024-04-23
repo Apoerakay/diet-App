@@ -7,7 +7,7 @@ function Header(){
     return(
     <>
  <Navbar/>
-    <div className="inset-0 bg-[url('./assets/bg1.jpg')]  p-8 bg-center bg-cover h-lvh text-center text-white">
+    <div className="inset-0 bg-[url('./assets/bg1.jpg')]  p-8 bg-center bg-cover h-lvh w-full text-center text-white">
         
           
         
@@ -26,8 +26,8 @@ function Header(){
     </div>
 </form>
 
-<div className="flex min-h-screen items-center justify-center bg-transparent pr-[500px] pb-[400px] ">
-           <h1 className="text-stone-900 text-6xl w-1/2 pt-[200px] font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5  "> 
+<div className="flex min-h-screen items-center justify-center bg-transparent pr-[500px] pb-[900px] mb-[500px] ">
+           <h1 className="text-stone-900 text-6xl w-1/2 pt-[100px] font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5  "> 
                 Let Food Be Your Medicine !!
             </h1>
            </div>
