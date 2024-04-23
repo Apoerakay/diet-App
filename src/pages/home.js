@@ -26,16 +26,16 @@ function Home(){
                 Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
                 </p></SwiperSlide>
         <SwiperSlide><p class="p-4">
-                Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
+        Love your waakye? Try adding some grilled vegetables like zucchini and eggplant for added flavor and nutrition. Your taste buds will thank you!
                 </p></SwiperSlide>
         <SwiperSlide><p class="p-4">
-                Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
+        Make water your go-to drink! Cut down on sugary sodas and juices by quenching your thirst with refreshing H2O. Your body will thank you!
                 </p></SwiperSlide>
         <SwiperSlide><p class="p-4">
-                Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
+        Enjoy traditional Ghanaian snacks like koose or akara made with beans for a protein-packed treat!
                 </p></SwiperSlide>
         <SwiperSlide> <p class="p-4">
-                Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
+        Did you know that adding more leafy greens like kontomire and spinach to your diet can boost your iron levels and keep you energized?
                 </p></SwiperSlide>
         <SwiperSlide> <p class="p-4">
                 Cut down on processed meats like sausage and bacon. Opt for leaner proteins like grilled chicken or fish instead. Your heart will thank you!
@@ -44,7 +44,7 @@ function Home(){
                 Feeling tired? Boost your energy levels with a handful of almonds or a slice of whole-grain bread topped with peanut butter.
                 </p></SwiperSlide>
         <SwiperSlide>  <p class="p-4">
-                Feeling tired? Boost your energy levels with a handful of almonds or a slice of whole-grain bread topped with peanut butter.
+        Eating out? Look for dishes that are steamed, boiled, or grilled instead of fried. Your waistline will thank you later!
                 </p></SwiperSlide>
         <SwiperSlide><p class="p-4">
         Cut down on salt by using herbs and spices like basil, thyme, and rosemary to flavor your meals. Your heart will thank you!
