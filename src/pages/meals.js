@@ -1,9 +1,12 @@
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 
 
 
 function Meal(){
     return(
     <>
+    <Navbar/>
     <div className="bg-gray-100 ">
     
    
@@ -124,7 +127,7 @@ function Meal(){
 
 
 
-
+<Footer/>
     </>
 )}
 

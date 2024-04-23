@@ -15,7 +15,7 @@ function SignUpInfo(){
 
             <form class="space-y-6" method="POST">
 
-                <div>
+                <div >
                     <label for="new-password" class="block text-sm font-medium text-gray-700">Username</label>
                     <div class="mt-1">
                         <input name="username" type="username" required

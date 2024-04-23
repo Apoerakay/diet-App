@@ -1,4 +1,4 @@
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 // import Swiper and modules styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -9,13 +9,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 function Facts() {
   return (
     <Swiper className="bg-gray-100 "
-    slidesPerView={3}
+    slidesPerView={2}
     spaceBetween={30}
+    loop = {true}
     pagination={{
       clickable: true,
+     
     }}
-    modules={[Pagination, Navigation]}
-    navigation={true}
+    modules={[Pagination, Autoplay ]}
+    autoplay={{delay: 2000,
+    disableOnInteraction: false}}
     
   >
      

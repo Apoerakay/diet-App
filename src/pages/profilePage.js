@@ -1,9 +1,12 @@
 import react from "react"
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 
 
 function Profile(){
     return(
     <>
+    <Navbar/>
   <section class="w-full overflow-hidden dark:bg-gray-900 bg-gray-100">
     <div class="flex flex-col">
         
@@ -87,9 +90,10 @@ function Profile(){
 
         </div>
     </div>
+  
 </section>
 
-
+<Footer/>
     </>
 )}
 

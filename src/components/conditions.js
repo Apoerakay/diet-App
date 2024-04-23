@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 
 
@@ -11,8 +11,8 @@ function Conditions(){
             <div class="text-xs uppercase text-gray-500 font-medium">Home</div>
             <a class="my-3 block" href="/#">Conditions <span class="text-teal-600 text-xs p-1"></span>
             </a>
-            <a class="my-3 block" href="/#">Meals <span class="text-teal-600 text-xs p-1"></span>
-            </a>
+            <Link to={'/meals'} class="my-3 block" >Meals <span class="text-teal-600 text-xs p-1"></span>
+            </Link>
             <a class="my-3 block" href="/#">recipes <span class="text-teal-600 text-xs p-1"></span>
             </a>
             
@@ -21,8 +21,8 @@ function Conditions(){
         <div class="p-5">
             <div class="text-xs uppercase text-gray-500 font-medium">nutritional Resources</div>
 
-            <a class="my-3 block" href="/#">Meal plans <span class="text-teal-600 text-xs p-1"></span>
-            </a>
+            <Link to={'/meals'} class="my-3 block" >Meal plans <span class="text-teal-600 text-xs p-1"></span>
+            </Link>
             <a class="my-3 block" href="/#">Information on conditions <span class="text-teal-600 text-xs p-1"></span>
             </a>
             <a class="my-3 block" href="/#">Support <span class="text-teal-600 text-xs p-1"></span>

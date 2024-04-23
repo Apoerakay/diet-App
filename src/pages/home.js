@@ -2,6 +2,11 @@ import Header from "../components/header";
 import Facts from "../components/Facts";
 import Footer from "../components/footer";
 import Conditions from "../components/conditions";
+import React, { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+import { EffectCards } from 'swiper/modules';
 
 
 function Home(){
@@ -9,82 +14,55 @@ function Home(){
         <>
         <Header/>
 
-        <section>
-        <div class="bg-gray-100 min-h-screen p-4">
-
-    <div class="container mx-auto pt-[120px] ">
-       
-        
-       
-        <p class="text-gray-700 text-lg text-center mb-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet magna id ex hendrerit semper.
-        </p>
-        {/* <marquee> */}
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ">
-            <div class="bg-yellow-300 rounded-lg shadow-lg p-8 h-[300px] w-full text-3xl">
-                <h2 class="text-xl font-bold text-gray-800 mb-4 "></h2>
-                <p class="text-gray-700 whitespace-normal break-words">
+        <section className="p-24 bg-gray-100">
+            <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center pb-16">Nutritional Tips</h1>
+        <Swiper
+        effect={'cards'}
+        grabCursor={true}
+        modules={[EffectCards]}
+        className="mySwiper"
+      >
+         <SwiperSlide > <p className="p-4">
                 Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
-                </p>
-            </div>
-            <div class="bg-violet-600 rounded-lg shadow-lg p-8 text-3xl">
-                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700 whitespace-normal break-words">
+                </p></SwiperSlide>
+        <SwiperSlide><p class="p-4">
+                Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
+                </p></SwiperSlide>
+        <SwiperSlide><p class="p-4">
+                Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
+                </p></SwiperSlide>
+        <SwiperSlide><p class="p-4">
+                Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
+                </p></SwiperSlide>
+        <SwiperSlide> <p class="p-4">
+                Start your meals with a salad or a bowl of soup to help control your appetite and prevent overeating. Your waistline will thank you!
+                </p></SwiperSlide>
+        <SwiperSlide> <p class="p-4">
                 Cut down on processed meats like sausage and bacon. Opt for leaner proteins like grilled chicken or fish instead. Your heart will thank you!
-                </p>
-            </div>
-            <div class="bg-red-600 rounded-lg shadow-lg p-8 text-3xl">
-                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700 whitespace-normal break-words">
+                </p></SwiperSlide>
+        <SwiperSlide> <p class="p-4">
                 Feeling tired? Boost your energy levels with a handful of almonds or a slice of whole-grain bread topped with peanut butter.
-                </p>
-                
-            </div>
-            <div class="bg-violet-600 rounded-lg shadow-lg p-8 text-3xl">
-                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700 whitespace-normal break-words">
-                Stay hydrated in Ghana's heat! Drink plenty of water & enjoy refreshing coconut water for electrolytes & hydration
-                </p>
-            </div>
-            <div class="bg-red-600 rounded-lg shadow-lg p-8 text-3xl">
-                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700 whitespace-normal break-words">
+                </p></SwiperSlide>
+        <SwiperSlide>  <p class="p-4">
+                Feeling tired? Boost your energy levels with a handful of almonds or a slice of whole-grain bread topped with peanut butter.
+                </p></SwiperSlide>
+        <SwiperSlide><p class="p-4">
+        Cut down on salt by using herbs and spices like basil, thyme, and rosemary to flavor your meals. Your heart will thank you!
+                </p></SwiperSlide>
+
+                <SwiperSlide><p class="p-4">
                 Opt for homemade soups and stews with plenty of vegetables & lean proteins for a comforting yet nutritious meal.
-                </p>
-                
-            </div>
-            <div class="bg-violet-600 rounded-lg shadow-lg p-8 text-3xl">
-                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700 whitespace-normal break-words">
+                </p></SwiperSlide>
+
+                <SwiperSlide><p class="p-4">
                 Include a source of protein in each meal, such as grilled fish, tofu, or beans, to help you feel full and satisfied.
-                </p>
-            </div>
-            <div class="bg-red-600 rounded-lg shadow-lg p-8 text-3xl">
-                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700 whitespace-normal break-words">
-                Snack on roasted corn on the cob for a fiber-rich option that's perfect for on-the-go.
-                </p>
-                
-            </div>
-            <div class="bg-violet-600 rounded-lg shadow-lg p-8 text-3xl">
-                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700 whitespace-normal break-words">
-                Cut down on salt by using herbs and spices like basil, thyme, and rosemary to flavor your meals. Your heart will thank you!
-                </p>
-            </div>
-            <div class="bg-red-600 rounded-lg shadow-lg p-8 text-3xl">
-                <h2 class="text-xl font-bold text-gray-800 mb-4"></h2>
-                <p class="text-gray-700 whitespace-normal break-words">
+                </p></SwiperSlide>
+
+                <SwiperSlide><p class="p-4">
                 Did you know that adding more leafy greens like kontomire and spinach to your diet can boost your iron levels and keep you energized?
-                </p>
-                
-            </div>
-            
-            
-        </div>
-       {/* </marquee> */}
-    </div>
-</div>
+                </p></SwiperSlide>
+        
+</Swiper>
         </section>
 
         <section>
