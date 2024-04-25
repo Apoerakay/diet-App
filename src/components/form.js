@@ -31,7 +31,7 @@ function Form (){
       <div className="progress-bar"></div>
       <div className="form-container">
       <div className="header">
-        <h1 className="text-center text-4xl font-bold">{formTitles[page]}</h1>
+        
       </div>
       <div className="body">{displayPage()}</div>
       <div className="footer flex gap-8 bg-transparent">
