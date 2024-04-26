@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 function Conditions(){
     return(
     <>
-    <div class="bg-gray-100">
+    <div class="bg-gray-800 text-white py-4">
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6  text-gray-800 flex flex-wrap justify-center ">
         <div class="p-5">
             <div class="text-xs uppercase text-gray-500 font-medium">Home</div>
@@ -19,9 +19,9 @@ function Conditions(){
           
         </div>
         <div class="p-5">
-            <div class="text-xs uppercase text-gray-500 font-medium">nutritional Resources</div>
+            <div class="text-xs uppercase text-white font-medium">nutritional Resources</div>
 
-            <Link to={'/meals'} class="my-3 block" >Meal plans <span class="text-teal-600 text-xs p-1"></span>
+            <Link to={'/meals'} class="my-3 block" >Meal plans <span class="text-white text-xs p-1"></span>
             </Link>
             <a class="my-3 block" href="/#">Information on conditions <span class="text-teal-600 text-xs p-1"></span>
             </a>
