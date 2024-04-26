@@ -13,7 +13,7 @@ function SignUpInfo(){
             </h2>
 
 
-            <form class="space-y-6" method="POST" onSubmit={addUser}>
+            <form class="space-y-6" method="POST" >
 
                 <div >
                     <label for="new-password" class="block text-sm font-medium text-gray-700">Username</label>

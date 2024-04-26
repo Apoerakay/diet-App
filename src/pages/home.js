@@ -220,7 +220,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <Conditions />
+      
 
       <Footer />
     </>
