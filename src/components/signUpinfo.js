@@ -48,10 +48,11 @@ function SignUpInfo(){
                 </div>
 
                 <div>
-                    <button type="submit"
+                    <Link to={'/personal'}>
+                    <button  type="submit"
                         class="flex w-full justify-center rounded-md border border-transparent bg-green-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-opacity-75 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2">Register
                         Account
-                        </button>
+                        </button></Link>
                         <Link to='/login' class="inline-block align-baseline font-bold text-sm text-white hover:text-cyan-800"
                     href="#">
                     Have an Account ? SignIn

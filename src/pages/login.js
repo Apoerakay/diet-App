@@ -35,11 +35,12 @@ function Login(){
                     Don't have an Account ? SignUp
                 </Link>
             <div class="flex items-center justify-between gap-8">
+                <Link to={'/'}>
                 <button
                     class="bg-green-700 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                     type="button">
                     Sign In
-                </button>
+                </button> </Link>
                 <a class="inline-block align-baseline font-bold text-sm text-cyan-500 hover:text-cyan-800"
                     href="#">
                     Forgot Password?

@@ -12,6 +12,11 @@ import Home from "./pages/home";
 import Footer from "./components/footer";
 import Form from "./components/form";
 import Condition from "./pages/conditions";
+import Recipe from "./pages/recipePage";
+import SignUpInfo from "./components/signUpinfo";
+import PersonalInfo from "./components/personalinfo";
+import Detail from "./pages/details";
+import Other from "./components/otherinfo";
 
 function App() {
   return (
@@ -24,7 +29,10 @@ function App() {
   <Route path= '/Profile'element={ <Profile/>}></Route>
   <Route path= '/meals' element={ <Meal/>}></Route>
    <Route path= '/conditions' element={<Condition/>}></Route> 
-  
+   <Route path='/recipes' element={<Recipe/>}></Route>
+   <Route path='/personal' element={<PersonalInfo/>}></Route>
+   <Route path='/other' element={<Other/>}></Route>
+   <Route path='/details/:id' element={<Detail/>}></Route>
 </Routes>
 </BrowserRouter>
 

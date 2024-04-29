@@ -13,7 +13,7 @@ function Header(){
         
 
         
-<form class="max-w-md mx-auto pt-12">   
+<form  class="max-w-md mx-auto pt-12">   
     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"></label>
     <div class="relative">
         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -26,16 +26,16 @@ function Header(){
     </div>
 </form>
 
-<div className="flex min-h-screen items-center justify-center bg-transparent pr-[500px] pb-[900px] mb-[500px] ">
-           <h1 className="text-stone-900 text-6xl w-1/2 pt-[100px] font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5  "> 
-                Let Food Be Your Medicine !!
+<div className="flex min-h-screen items-center justify-center bg-transparent pr-[300px] pb-[200px] mb-[500px] ">
+           <h1 className="text-stone-900 text-6xl w-full pt-[100px] font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5  "> 
+                Let Food Be Your Medicine
             </h1>
            </div>
 
 </div>
 
-<h1 class="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center text-gray-800 sm:mb-0 mb-12">
-            Statistics of People living with Leading Dietary Conditions   Globally <br class="md:block hidden" />
+<h1 class="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center pt-16 text-gray-800 sm:mb-0 mb-12">
+            Global Numbers for Dietary Conditions <br class="md:block hidden" />
          
         </h1>
         <div class="md:mt-14 mt-4 relative sm:flex items-center justify-center">

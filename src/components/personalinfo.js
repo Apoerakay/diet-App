@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function PersonalInfo(){
   return(
@@ -31,7 +32,8 @@ function PersonalInfo(){
             </div>
            
             <div class="text-right">
-                <button class="py-3 px-8 bg-green-500 text-green-100 font-bold rounded">Submit</button>
+                <Link to={'/other'}>
+                <button class="py-3 px-8 bg-green-500 text-green-100 font-bold rounded">Submit</button></Link>
             </div>
         </form>
     </div>

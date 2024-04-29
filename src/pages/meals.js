@@ -12,7 +12,7 @@ function Meal(){
    
    
 
-<div class="text-center p-10">
+<div class="text-center pt-[85px]">
     <h1 class="font-bold text-4xl mb-4">Recommended Meals</h1>
     
 </div>
@@ -28,9 +28,9 @@ function Meal(){
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
                 
-                <p class="text-lg font-bold text-black truncate block capitalize"></p>
+                <p class="text-lg font-bold text-black truncate block capitalize">White Rice and vegetables</p>
                 <div class="flex items-center">
-                    <p class="text-lg font-semibold text-black cursor-auto my-3"></p>
+                    <p class="text-lg font-semibold text-black cursor-auto my-3 text-blue-700"> rich in energy and vitamins</p>
                   
                     
                 </div>
@@ -45,9 +45,9 @@ function Meal(){
             <img src="https://images.unsplash.com/photo-1530912585210-7916cd026e59?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
-                <p class="text-lg font-bold text-black truncate block capitalize"></p>
+                <p class="text-lg font-bold text-black truncate block capitalize">Healthy Dry vegetable Salad</p>
                 <div class="flex items-center">
-                    <p class="text-lg font-semibold text-black cursor-auto my-3"></p>
+                    <p class="text-lg font-semibold text-black cursor-auto my-3 text-blue-700"> a good source of Vitamins and Fibre</p>
                    
                     
                 </div>
@@ -60,9 +60,9 @@ function Meal(){
             <img src="https://img.freepik.com/free-photo/top-view-plate-with-assortment-healthy-food_23-2148381259.jpg?t=st=1713351385~exp=1713354985~hmac=61fadfae0a8d109d9399b00ec0f69944d7949cd6c98085bc660c2521238bbeab&w=740"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
-                <p class="text-lg font-bold text-black truncate block capitalize"></p>
+                <p class="text-lg font-bold text-black truncate block capitalize">vegetables mixed with green beans</p>
                 <div class="flex items-center">
-                    <p class="text-lg font-semibold text-black cursor-auto my-3"></p>
+                    <p class="text-lg font-semibold text-black cursor-auto my-3 text-blue-700">Aids in boosting the immune system</p>
                     
                     
                 </div>
@@ -76,9 +76,9 @@ function Meal(){
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
                 
-                <p class="text-lg font-bold text-black truncate block capitalize"></p>
+                <p class="text-lg font-bold text-black truncate block capitalize">A healthy bowl of fruit Salad</p>
                 <div class="flex items-center">
-                    <p class="text-lg font-semibold text-black cursor-auto my-3"></p>
+                    <p class="text-lg font-semibold text-black cursor-auto my-3 text-blue-700">a good source of vitamin C and other essential vitamins</p>
                     
                     
                 </div>
@@ -92,9 +92,9 @@ function Meal(){
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
                 
-                <p class="text-lg font-bold text-black truncate block capitalize"></p>
+                <p class="text-lg font-bold text-black truncate block capitalize">Healthy portion of banku</p>
                 <div class="flex items-center">
-                    <p class="text-lg font-semibold text-black cursor-auto my-3"></p>
+                    <p class="text-lg font-semibold text-black cursor-auto my-3 text-blue-700"> High in carbohydrates, vitamins and protein</p>
                     
                    
                 </div>
@@ -107,9 +107,9 @@ function Meal(){
             <img src="https://img.freepik.com/free-photo/pork-panning-curry-with-berry-rice-omelet_1339-3268.jpg?t=st=1713351733~exp=1713355333~hmac=7789a9f5333beb892928e700fbfcc70531f330f2b942c12e63351b333ba4b1af&w=740"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
-                <p class="text-lg font-bold text-black truncate block capitalize">a portion of waakye and vegetables and tofu</p>
+                <p class="text-lg font-bold text-black truncate block capitalize">a portion of waakye and vegetables</p>
                 <div class="flex items-center">
-                    <p class="text-lg font-semibold text-black cursor-auto my-3"></p>
+                    <p class="text-lg font-semibold text-black cursor-auto my-3 text-blue-700">Rich in plant based protein and vitamins</p>
                     
                   
                 </div>

@@ -34,7 +34,7 @@ function Form (){
         
       </div>
       <div className="body">{displayPage()}</div>
-      <div className="footer flex gap-8 bg-transparent">
+      {/* <div className="footer flex gap-8 bg-transparent">
         <button 
          disabled={page == 0}
         onClick={()=>{
@@ -45,10 +45,11 @@ function Form (){
          onClick={()=>{
           setPage((currpage)=> currpage+1)
         }} className="py-3 px-8 bg-green-500 text-green-100 font-bold rounded">next</button>
-      </div>
+      </div> */}
       </div>
       
     </div>
+    
   )
 }
 
